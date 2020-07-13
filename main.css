@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.wrapper {
+    display: grid;
+    width: 50vw;
+    height: 50vw;
+    grid-template-columns: repeat(3, minmax(5%, 1fr));
+    grid-template-rows: repeat(3, minmax(5%, 1fr ));
+    grid-gap: 5px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.element {
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background: turquoise;
+}
+
+.element1 {
+    background: papayawhip;
+  }
+
+  .element2 {
+    background: pink;
+  }
+
+  .element3 {
+    background: lightcyan;
+  }
+
+  .container1 {
+    display: grid;
+    justify-content: start;
+    align-content: start;
+  }
+
+  .container2 {
+    display: grid;
+    justify-content: start;
+    align-content: space-between;
+  }
+
+  .container3 {
+    display: grid;
+    justify-content: start;
+    align-content: end;
+
+  }
+
+  .container4 {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+  }
+
+  .container5 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container6 {
+    display: grid;
+    justify-content: center;
+    align-content: end;
+  }
+
+  .container7 {
+    display: grid;
+    justify-content: end;
+    align-content: start;
+  }
+
+  .container8 {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+  }
+
+  .container9 {
+    display: grid;
+    justify-content: end;
+    align-content: end;
+  }
